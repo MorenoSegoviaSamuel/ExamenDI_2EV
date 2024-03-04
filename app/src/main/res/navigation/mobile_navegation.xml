@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navegation"
+    app:startDestination="@+id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.examendi_2ev.fragments.HomeFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_books"
+        android:name="com.example.examendi_2ev.fragments.BooksFragment"
+        android:label="books"
+        tools:layout="@layout/fragment_books" />
+    <fragment
+        android:id="@+id/nav_shopping"
+        android:name="com.example.examendi_2ev.fragments.ShoppingFragment"
+        android:label="shopping"
+        tools:layout="@layout/fragment_shopping" />
+</navigation>
